@@ -1,0 +1,137 @@
+section, header, article, nav {
+    display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 80em;
+    margin: 1em 10%;
+    background: url("../images/background.gif") top left fixed repeat-x;
+}
+
+td {
+    padding: .5em 3em;
+}
+
+dl {
+    overflow: hidden;
+}
+
+dt, dd {
+    float: left;
+}
+
+label {
+    display: block;
+}
+
+fieldset {
+    border: none;
+}
+
+input[type="submit"] {
+    padding: .5em;
+    cursor: pointer;
+}
+
+/*header*/
+header {
+    background: url("../images/guitarist.gif") bottom right no-repeat;
+    border: .1em solid;
+    border-bottom: 0;
+}
+
+#about header {
+    background-image: url(../images/lineup.gif);
+}
+
+#photos header {
+    background-image: url(../images/basshead.gif);
+}
+
+#live header {
+    background-image: url(../images/bassist.gif);
+}
+
+#contact header {
+    background-image: url(../images/drummer.gif);
+}
+
+/*nav*/
+header nav {
+    padding-left: 10%;
+    background: url("../images/navbar.gif") bottom left repeat-x;
+    border: .1em solid;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+header nav ul {
+    width: 100%;
+    overflow: hidden;
+    border-left: .1em solid;
+}
+
+header nav li {
+    display: inline;
+    list-style: none;
+}
+
+header nav li a {
+    display: block;
+    float: left;
+    padding: .5em 2em;
+    border-right: .1em solid;
+}
+
+/*nav end*/
+/*header end*/
+
+/*article*/
+article {
+    padding: 2em 10%;
+    border: .1em solid;
+    border-top: 0;
+}
+
+article img {
+    border: .1em solid;
+    outline: .1em solid;
+}
+
+/*imagegallery*/
+#imagegallery li {
+    display: inline;
+}
+
+/*imagegallery end*/
+/*article end*/
+
+/*Home slideshow*/
+#slideshow {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+#frame {
+    z-index: 99;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+    outline: none;
+}
+
+#preview {
+    position: absolute;
+    border: none;
+    outline: none;
+}
+
+/*Home slideshow end*/

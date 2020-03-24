@@ -1,4 +1,4 @@
-##About
+## About
 
 一个使用原生JavaScript/DOM的简单网站demo
 
